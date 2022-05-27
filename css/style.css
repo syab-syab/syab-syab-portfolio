@@ -35,9 +35,52 @@ body {
   font-size: 3rem;
 }
 
+
+.lists {
+  padding: 10rem;
+  text-align: left;
+}
+
 .lists li {
   list-style: none;
   margin-bottom: 2rem;
+  background-color: #ffecec;
+}
+
+.lists li a {
+  text-decoration: none;
 }
 
 /* main End */
+
+/* レスポンシブ */
+
+@media (max-width: 1465px) {
+  .header {
+    padding: 3rem 0 1rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .container {
+    font-size: 2rem;
+  }
+
+  .container h2 {
+    margin-bottom: 0;
+  }
+
+  .lists {
+    padding: 5rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    /* font-size: ; */
+  }
+}
