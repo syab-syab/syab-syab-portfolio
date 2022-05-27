@@ -3,32 +3,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>ポートフォリオ(仮)</title>
+  <title>syab-syab's portfolio(仮)</title>
 </head>
-<body>
+<!-- ページを開いたら、背景色以外何も表示されていない状態から文字が浮かび上がってくる感じにしたい -->
+<body id="body">
   <header class="header">
-    <h1 class="title">ポートフォリオ(仮)</h1>
+    <h1 class="title" id="title">syab-syab's portfolio(仮)</h1>
   </header>
 
-  <main class="container">
+  <main class="container" id="container">
     <h2>作った物</h2>
-    <section>
-      <ul class="lists">
-        <li>
-          <a href="https://syab-syab.github.io/soundEffectBtn/" target="_blank">効果音ボタン</a>
-            <p class="description">よく使われている効果音をまとめたサイトです。</p>
-        </li>
-        <li>
-          <a href="https://syab-syab.github.io/diatonicChord/" target="_blank">ダイアトニックコードのカンペ</a>
-            <p class="description">各キー毎のダイアトニックコードがわかるシンプルなサイトです。</p>
-        </li>
-        <li>
-          <a href="https://syab-syab.github.io/image_maker/" target="_blank">イベント予定告知画像メーカー</a>
-            <p class="description">イベントや遊び・仕事etc...どんな予定のスケジュールも画像にしてみんなで共有しやすくできるサイトです。</p>
-        </li>
-      </ul>
+    <!-- 以下のlist要素はhedearが表示された後に浮かび上がってくるような感じにしたい -->
+    <section class="lists">
+        <a href="https://syab-syab.github.io/soundEffectBtn/" target="_blank">
+          効果音ボタン
+          <p class="description">よく使われている効果音をまとめたサイトです。</p>
+        </a>
+        <a href="https://syab-syab.github.io/diatonicChord/" target="_blank">
+          ダイアトニックコードのカンペ
+          <p class="description">各キー毎のダイアトニックコードがわかるシンプルなサイトです。</p>
+        </a>
+        <a href="https://syab-syab.github.io/image_maker/" target="_blank">
+          イベント予定告知画像メーカー
+          <p class="description">イベントや遊び・仕事etc...どんな予定のスケジュールも画像にしてみんなで共有しやすくできるサイトです。</p>
+        </a>
     </section>
   </main>
   
